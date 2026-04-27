@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0b0f1a;
+    color: white;
+}
+.sidebar {
+    width: 220px;
+    height: 100vh;
+    background: linear-gradient(#1a1f3c, #0b0f1a);
+    position: fixed;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    color: #a855f7;
+}
+
+.sidebar a {
+    display: block;
+    color: #ccc;
+    margin: 15px 0;
+    text-decoration: none;
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 10px 12px;
+    border-radius: 8px;
+}
+
+.sidebar a:hover {
+    color: #a855f7;
+    border-color: #a855f7;
+}
+
+.main {
+    margin-left: 240px;
+    padding: 20px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background: rgba(255,255,255,0.05);
+    padding: 20px;
+    flex: 1;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(168,85,247,0.3);
+}
+
+.card img {
+    width: 40px;
+    margin-top:20px;
+    border-radius: 10px;
+}
+
+.card h2 {
+    color: #a855f7;
+}
+
+input, button {
+    margin: 10px 5px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background: #a855f7;
+    color: white;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #333;
+}
+
+.banner {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.insight {
+    color: #a855f7;
+}
+.banner-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.report-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.revmain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.revmain h1,
+.revmain p,
+.revmain button {
+    text-align: center;
+}
+
+.revmain p {
+    width: 100%;
+    max-width: 720px;
+}
+
+.main button {
+    min-width: 180px;
+}

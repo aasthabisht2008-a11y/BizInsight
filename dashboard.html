@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>⚡ BizInsight</h2>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="products.html">Products</a>
+    <a href="reports.html">Reports</a>
+    <a href="review.html">Review Analyzer</a>
+</div>
+
+<div class="main">
+
+    <!-- Topbar -->
+    <div class="topbar">
+        <input type="text" placeholder="Search...">
+        <div class="profile">Admin</div>
+    </div>
+
+    <!-- Banner Section -->
+    <div class="banner-container">
+        <img src="images/dashboard-banner.png" class="banner-img">
+        <div class="banner-text">
+            <h1>BizInsight Dashboard</h1>
+            <p>Smart Insights. Better Decisions.</p>
+        </div>
+    </div>
+
+    <!-- Cards -->
+    <div class="cards">
+
+        <div class="card">
+            <img src="images/revenue.png" class="card-img">
+            <p>Total Revenue</p>
+            <h2 id="revenue"></h2>
+        </div>
+
+        <div class="card">
+            <img src="images/orders.png" class="card-img">
+            <p>Total Orders</p>
+            <h2 id="orders"></h2>
+        </div>
+
+        <div class="card">
+            <img src="images/customers.png" class="card-img">
+            <p>Total Customers</p>
+            <h2 id="customers">210</h2>
+        </div>
+
+        <div class="card">
+            <img src="images/conversion.png" class="card-img">
+            <p>Conversion Rate</p>
+            <h2 id="conversion"></h2>
+        </div>
+
+    </div>
+
+    <!-- Chart -->
+    <canvas id="salesChart"></canvas>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

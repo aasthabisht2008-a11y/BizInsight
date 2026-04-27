@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reports</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>⚡ BizInsight</h2>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="products.html">Products</a>
+    <a href="reports.html">Reports</a>
+    <a href="review.html">Review Analyzer</a>
+</div>
+
+<div class="main">
+
+    <!-- Banner -->
+    <div class="banner-container">
+        <img src="images/report-banner.png" class="banner-img">
+
+        <div class="banner-text">
+            <h1>Reports</h1>
+            <p>Data Driven. Better Decisions.</p>
+        </div>
+    </div>
+
+    <!-- Chart Section -->
+    <h2 style="margin-top:20px;">Sales Analysis</h2>
+
+    <canvas id="barChart"></canvas>
+
+    <p class="insight">
+        Data dynamically updates from stored products.
+    </p>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
